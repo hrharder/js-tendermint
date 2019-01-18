@@ -2,7 +2,7 @@ let url = require('url')
 let debug = require('debug')('tendermint-node')
 let _exec = require('execa')
 let _spawn = require('cross-spawn')
-let { RpcClient } = require('./rpc.js')
+let RpcClient = require('./rpc.js')
 let flags = require('./flags.js')
 
 const logging = process.env.TM_LOG
