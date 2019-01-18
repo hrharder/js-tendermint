@@ -1,7 +1,7 @@
 'use strict'
 
 const stringify = require('json-stable-stringify')
-const ed25519 = require('supercop.js')
+const ed25519 = require('ed25519-supercop')
 // TODO: try to load native ed25519 implementation, fall back to supercop.js
 const {
   getBlockHash,
